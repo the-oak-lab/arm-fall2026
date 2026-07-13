@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Applied Research Methods course website" />
+  <title>Applied Research Methods</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="header-inner">
+      <p class="eyebrow">Carnegie Mellon University</p>
+      <h1>Applied Research Methods <br> Fall 2026</h1>
+    </div>
+  </header>
+
+  <main>
+    <section class="course-info">
+      <article class="info-card">
+        <p class="info-label">Professor</p>
+        <h2>Dr. Paulo Carvalho</h2>
+        <a href="mailto:pcarvalh@cs.cmu.edu">pcarvalh@cs.cmu.edu</a>
+      </article>
+
+      <article class="info-card">
+        <p class="info-label">TA</p>
+        <h2>Gillian Gold</h2>
+        <a href="mailto:gilliang@andrew.cmu.edu">gilliang@andrew.cmu.edu</a>
+      </article>
+
+      <article class="info-card meetings-card">
+        <p class="info-label">Meetings</p>
+        <h2>Mondays and Wednesdays</h2>
+        <p>3:30–4:50 p.m.</p>
+      </article>
+    </section>
+
+    <section class="content-section overview">
+      <p class="section-kicker">Course Overview</p>
+      <h2 class="section-title">Overview, Objectives, and Expectations</h2>
+
+      <div class="overview-copy">
+        <p>
+          This course is for undergraduate and graduate students conducting or
+          interested in learning how to conduct applied empirical research.
+        </p>
+
+        <p>
+          We will focus on the “research loop” and the basic steps in the social
+          science research process: developing research questions, determining
+          research design, collecting data, and analyzing data.
+      
+          The course will be run as both a seminar discussion on Mondays and a
+          Lab/Workshop on Wednesdays, involving hands-on practice of research
+          skills, including ethnographic fieldwork, qualitative analysis,
+          research design, experimentation, content coding and analysis, and
+          statistical analysis.
+        
+          Students will design a research project in the course. PhD students
+          will typically, but not necessarily, work with their advisor on these
+          projects.
+        </p>
+
+        <p>
+          The course is organized into six units, moving from foundations of
+          research through measurement and validity, experimental design,
+          non-experimental designs, qualitative and mixed methods, and finally
+          analysis, interpretation, and communication.
+        
+          Statistical topics are not siloed into a separate unit—they are
+          interleaved throughout the Wednesday labs and tied to whatever design
+          topic is live that week.
+
+          This course does not cover professional methods, such as contextual
+          design or usability testing, that are already taught in other courses
+          offered by the HCII. In addition, this course will not offer advanced
+          statistical and computational analyses.
+
+          The statistical topics covered are applicable to the writing and
+          reading of empirical research papers: understanding data types,
+          organizing data for statistical analysis, assessing data properties
+          and correcting for anomalies, selecting appropriate analytical
+          techniques, applying techniques most often used in empirical work
+          such as ANOVA and regression, using the RStudio statistical package,
+          and learning how to describe statistical tests for publication.
+        </p>
+
+        <p>
+          Each week we will discuss an empirical research topic. During the
+          seminar sessions, we will discuss the method and approach assigned to
+          that week. To prepare for that discussion, you will complete practice
+          questions in Canvas and read assigned readings.
+       
+          During the lab sessions, you will complete, individually or as part
+          of a group, hands-on activities related to that week’s topic. Please bring a laptop to every class.
+        </p>
+      </div>
+    </section>
+
+    <section class="content-section topics">
+      <p class="section-kicker">Topics</p>
+      <h2 class="section-title">Course Units</h2>
+
+      <div class="unit-tabs" role="tablist" aria-label="Course units">
+        <button class="unit-tab active" role="tab" aria-selected="true" data-unit="unit-1">Unit 1</button>
+        <button class="unit-tab" role="tab" aria-selected="false" data-unit="unit-2">Unit 2</button>
+        <button class="unit-tab" role="tab" aria-selected="false" data-unit="unit-3">Unit 3</button>
+        <button class="unit-tab" role="tab" aria-selected="false" data-unit="unit-4">Unit 4</button>
+        <button class="unit-tab" role="tab" aria-selected="false" data-unit="unit-5">Unit 5</button>
+        <button class="unit-tab" role="tab" aria-selected="false" data-unit="unit-6">Unit 6</button>
+      </div>
+
+      <div class="unit-panels">
+        <article id="unit-1" class="unit-panel active" role="tabpanel">
+          <p class="unit-number">Unit 1</p>
+          <h3>Foundations of Research</h3>
+          <ul>
+            <li>Scientific Reasoning and Research Approaches</li>
+            <li>Research Questions, Hypotheses, and R Orientation</li>
+          </ul>
+        </article>
+
+        <article id="unit-2" class="unit-panel" role="tabpanel" hidden>
+          <p class="unit-number">Unit 2</p>
+          <h3>Measurement and Validity</h3>
+          <ul>
+            <li>Measuring Variables and Research Validity</li>
+            <li>Ethics, Open Science, and Replication</li>
+            <li>Data Types and Descriptive Stats in R</li>
+          </ul>
+        </article>
+
+        <article id="unit-3" class="unit-panel" role="tabpanel" hidden>
+          <p class="unit-number">Unit 3</p>
+          <h3>Experimental Design</h3>
+          <ul>
+            <li>Experimental Design: Control and Between/Within Designs</li>
+            <li>Conducting a Research Study</li>
+            <li>Factorial and Mixed Designs</li>
+            <li>Designing an Experiment + Peer Critique</li>
+            <li>Quasi-Experimental and Single-Case Designs</li>
+            <li>t-tests and One-Way ANOVA in R</li>
+            <li>Confounding and Validity Threats</li>
+            <li>Factorial ANOVA in R</li>
+          </ul>
+        </article>
+
+        <article id="unit-4" class="unit-panel" role="tabpanel" hidden>
+          <p class="unit-number">Unit 4</p>
+          <h3>Non-Experimental Designs</h3>
+          <ul>
+            <li>Correlational Research</li>
+            <li>Correlation and Regression in R</li>
+            <li>Survey Research and Measurement</li>
+            <li>Designing a Survey + Likert Data in R</li>
+            <li>Observational and Archival Methods</li>
+            <li>Designing an Observation Protocol</li>
+          </ul>
+        </article>
+
+        <article id="unit-5" class="unit-panel" role="tabpanel" hidden>
+          <p class="unit-number">Unit 5</p>
+          <h3>Qualitative and Mixed Methods</h3>
+          <ul>
+            <li>Qualitative Research I: Foundations and Approaches</li>
+            <li>Thematic Coding + Intercoder Reliability (Cohen's κ)</li>
+            <li>Qualitative Research II: Interviews, Think-Aloud, Grounded Theory</li>
+            <li>Mixed Methods Design Workshop</li>
+          </ul>
+        </article>
+
+        <article id="unit-6" class="unit-panel" role="tabpanel" hidden>
+          <p class="unit-number">Unit 6</p>
+          <h3>Analysis, Interpretation, and Communication</h3>
+          <ul>
+            <li>Regression, Prediction, and Interpreting Results</li>
+            <li>Multiple Regression in R</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
